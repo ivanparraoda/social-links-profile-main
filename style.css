@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  color: #ffffff;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 5px;
+  text-align: center;
+  /* Other styles for your container */
+  padding: 30px;
+  width: 300px;
+}
+h2 {
+  margin-top: 1rem;
+}
+#city {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-size: 0.6rem;
+}
+
+#city,
+p {
+  margin-bottom: 1rem;
+}
+
+.social a {
+  background-color: hsl(0, 0%, 20%);
+  color: #ffffff;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 1rem 0rem;
+  padding: 10px 5px;
+}
+
+.social a:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+img {
+  width: 70px;
+  border-radius: 500vh;
+}
